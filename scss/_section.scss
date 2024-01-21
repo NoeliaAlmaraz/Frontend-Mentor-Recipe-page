@@ -1,0 +1,125 @@
+.firstsection {
+    figure {
+        margin-bottom: 1.25rem;
+
+        img {
+            display: block; /* Asegura que la imagen sea un bloque y no tenga espacio adicional por debajo */
+            width: 100%; /* Hace que la imagen ocupe el ancho completo del contenedor padre */
+            height: auto; /* Mantiene la proporción original de la imagen */
+        }
+    } 
+
+    h1 {
+        margin-bottom: 1.25rem;
+        font-family: 'Young Serif';
+        font-weight: normal;
+        font-size: 2.5em;
+        
+    }
+
+    p {
+        margin-bottom: 1.25rem;
+        font-family: 'Outfit';
+        font-weight: 400;
+    }
+
+    article {
+        margin-bottom: 1.25rem;
+        background-color: hsl(330, 100%, 98%);
+        border-radius: 0.6rem;
+        padding: 1.25rem;
+        h4 {
+            font-family: 'Outfit';
+            color: hsl(332, 51%, 32%);
+            
+        }
+        ul {
+            padding: 1.25rem 1.25rem 0 1.25rem;
+            li {
+                font-family: 'Outfit';
+                margin-bottom: 0.6rem; 
+                padding-left: 1.25rem; /*deja un espacio entre las viñetas 
+                                        y el elemnto del li*/
+                
+            }
+        }
+
+    }
+}
+
+.secondsection {
+    article {
+        h3 {
+            margin-bottom: 1.25rem;
+            font-family: 'Young Serif';
+            font-weight: normal;
+            font-size: 2em;
+            color: hsl(14, 45%, 36%);
+        }
+    
+        ul {
+            
+            padding-inline: 1.25rem;
+            border-bottom: 2px solid hsl(30, 18%, 87%);
+            margin-bottom: 1.25rem;
+            div {
+                margin-bottom: 2.5rem;
+                li {
+                    font-family: 'Outfit';
+                    margin-bottom: 0.6rem; 
+                    padding-left: 1.25rem; /*deja un espacio entre las viñetas 
+                                            y el elemnto del li*/
+                }
+            }
+    
+        }
+
+        ol {
+           
+            padding-inline: 1.25rem;
+            border-bottom: 2px solid hsl(30, 18%, 87%);
+            margin-bottom: 1.25rem;
+            div {
+                margin-bottom: 2.5rem;
+                li {
+                    font-family: 'Outfit';
+                    margin-bottom: 0.6rem; 
+                    padding-left: 1.25rem; /*deja un espacio entre las viñetas 
+                                            y el elemnto del li*/
+                }
+            } 
+        }
+
+        p {
+            font-family: 'Outfit';
+            font-weight: 400;
+            margin-bottom: 1.25rem;
+        }
+
+        table {
+            
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1.25rem;
+            
+            tr {
+                
+                td{
+                    font-family: 'Outfit';
+                    width: 50%;
+                    border-bottom: 2px solid hsl(30, 18%, 87%);
+                    padding: 0.6rem;
+                    
+                    
+            
+                    
+                    b {
+                        color: hsl(14, 45%, 36%);
+                        font-family: 'Outfit'; 
+                    }
+                }
+            }
+        }
+    }
+    
+}

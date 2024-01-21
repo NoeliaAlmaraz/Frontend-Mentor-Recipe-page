@@ -1,0 +1,46 @@
+
+
+.contenido {
+    display: grid;
+    background-color: #fff;
+}
+
+
+
+@media (min-width: 1000px) {
+    .contenido {
+        max-width: 50%;
+        margin: 0 auto;
+        border-radius: 0.6rem;
+    }
+
+    main {
+        margin: 1.87rem;
+        
+    }
+
+    .firstsection {
+        figure {
+            margin-bottom: 1.25rem;
+            img {
+                border-radius: 0.6rem;
+                width: 100%;
+            }
+        } 
+    }
+}
+
+@media (max-width: 999px) {
+    .firstsection{
+        div {
+            margin-inline: 1.87rem;
+        }
+        article {
+            margin-inline: 1.87rem;
+        }
+    }
+
+    .secondsection {
+        margin-inline: 1.87rem;
+    }
+}

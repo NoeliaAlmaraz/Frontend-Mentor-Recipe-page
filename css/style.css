@@ -1,0 +1,150 @@
+@charset "UTF-8";
+* {
+  font-family: "Fira Sans", "Outfit", "Young Serif", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.contenedor {
+  background-color: hsl(30, 54%, 90%);
+  padding-block: 6rem;
+}
+
+.contenido {
+  display: grid;
+  background-color: #fff;
+}
+
+@media (min-width: 1000px) {
+  .contenido {
+    max-width: 50%;
+    margin: 0 auto;
+    border-radius: 0.6rem;
+  }
+  main {
+    margin: 1.87rem;
+  }
+  .firstsection figure {
+    margin-bottom: 1.25rem;
+  }
+  .firstsection figure img {
+    border-radius: 0.6rem;
+    width: 100%;
+  }
+}
+@media (max-width: 999px) {
+  .firstsection div {
+    margin-inline: 1.87rem;
+  }
+  .firstsection article {
+    margin-inline: 1.87rem;
+  }
+  .secondsection {
+    margin-inline: 1.87rem;
+  }
+}
+.firstsection figure {
+  margin-bottom: 1.25rem;
+}
+.firstsection figure img {
+  display: block; /* Asegura que la imagen sea un bloque y no tenga espacio adicional por debajo */
+  width: 100%; /* Hace que la imagen ocupe el ancho completo del contenedor padre */
+  height: auto; /* Mantiene la proporción original de la imagen */
+}
+.firstsection h1 {
+  margin-bottom: 1.25rem;
+  font-family: "Young Serif";
+  font-weight: normal;
+  font-size: 2.5em;
+}
+.firstsection p {
+  margin-bottom: 1.25rem;
+  font-family: "Outfit";
+  font-weight: 400;
+}
+.firstsection article {
+  margin-bottom: 1.25rem;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 0.6rem;
+  padding: 1.25rem;
+}
+.firstsection article h4 {
+  font-family: "Outfit";
+  color: hsl(332, 51%, 32%);
+}
+.firstsection article ul {
+  padding: 1.25rem 1.25rem 0 1.25rem;
+}
+.firstsection article ul li {
+  font-family: "Outfit";
+  margin-bottom: 0.6rem;
+  padding-left: 1.25rem; /*deja un espacio entre las viñetas 
+ y el elemnto del li*/
+}
+
+.secondsection article h3 {
+  margin-bottom: 1.25rem;
+  font-family: "Young Serif";
+  font-weight: normal;
+  font-size: 2em;
+  color: hsl(14, 45%, 36%);
+}
+.secondsection article ul {
+  color: hsl(14, 45%, 36%);
+  padding-inline: 1.25rem;
+  border-bottom: 2px solid hsl(30, 18%, 87%);
+  margin-bottom: 1.25rem;
+}
+.secondsection article ul div {
+  margin-bottom: 2.5rem;
+}
+.secondsection article ul div li {
+  font-family: "Outfit";
+  margin-bottom: 0.6rem;
+  padding-left: 1.25rem; /*deja un espacio entre las viñetas 
+ y el elemnto del li*/
+}
+.secondsection article ol {
+  padding-inline: 1.25rem;
+  border-bottom: 2px solid hsl(30, 18%, 87%);
+  margin-bottom: 1.25rem;
+}
+.secondsection article ol div {
+  margin-bottom: 2.5rem;
+}
+.secondsection article ol div li {
+  font-family: "Outfit";
+  margin-bottom: 0.6rem;
+  padding-left: 1.25rem; /*deja un espacio entre las viñetas 
+ y el elemnto del li*/
+}
+.secondsection article p {
+  font-family: "Outfit";
+  font-weight: 400;
+  margin-bottom: 1.25rem;
+}
+.secondsection article table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.25rem;
+}
+.secondsection article table tr td {
+  font-family: "Outfit";
+  width: 50%;
+  border-bottom: 2px solid hsl(30, 18%, 87%);
+  padding: 0.6rem;
+}
+.secondsection article table tr td b {
+  color: hsl(14, 45%, 36%);
+  font-family: "Outfit";
+}
+
+footer {
+  font-size: 11px;
+  text-align: center;
+}
+footer a {
+  color: hsl(228, 45%, 44%);
+}
+
+/*# sourceMappingURL=style.css.map */
